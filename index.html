@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Grove</title>
+<link rel="icon" href="http://pixelartmaker.com/art/f20c65782629a63.png">
+<link rel="stylesheet" href="CSS/theme.css">
+<script src="//code.jquery.com/jquery-1.11.3.min.js">
+</script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</head>
+<body>
+<canvas id="ctx" width="500" height="500" style="border:1px solid #000000;"></canvas>
+<h3 id="log">Welcome to The Grove, young traveller!</h3>
+<script>
+var ctx = document.getElementById("ctx").getContext("2d");
+
+  var WIDTH = 500;
+  var HEIGHT = 500;
+  var timeWhenGameStarted = Date.now(); //return time in ms
+
+  var frameCount = 0;
+
+  var score = 0;
+
+  var paused = false;
+
+</script>
+<script src="JS/Attacks.js"></script>
+<script src="JS/Images.js"></script>
+<script src="JS/Entities.js"></script>
+<script src="JS/main.js"></script>
+</body>
+</html>
